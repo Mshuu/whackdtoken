@@ -1,0 +1,196 @@
+html {
+    background: url(../assets/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mobile-container {
+    display: block;
+}
+
+    .mobile-elements {
+        text-align: center;
+        position: absolute;
+    }
+
+        .mobile-epstein {
+            position: fixed;
+            width: 40%;
+            top: -10px; 
+        }
+
+        .mobile-epstein-01 {
+            position: fixed;
+            width: 30%;
+            top: 70%;
+        }
+
+        .mobile-epstein-02 {
+            position: fixed;
+            width: 90%;
+            top: 15%;
+            left: 5%;
+        }
+
+        .mobile-socials {
+            position: fixed;
+            width: 90%;
+            top: 34%;
+            left: 10%;
+        }
+
+            .mobile-socials>ul {
+                display: flex;
+            }
+
+            .mobile-socials>ul>li {
+                list-style: none;
+            }
+
+            .mobile-socials>ul>li>.mcafeedex>a>img {
+                width: 100px;
+            }
+
+
+        .mobile-hillary {
+            position: fixed;
+            bottom: 0px;
+            width: 80%;
+        }
+
+.top-container{
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+}
+
+.bottom-container {
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+}
+
+    .hanging>img {
+        width: 50%;
+    }
+
+    .epstein_02 {
+        display: inline;
+        position: relative;
+    }
+    
+    .epstein-02>img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+.bottom-container {
+    width: 100%;
+}
+
+.hillary {
+    display: inline;
+    position: relative;
+}
+
+    .hillary>img {
+        width: 50%;
+        margin-left: -20%;
+        position: fixed;
+        bottom: 0px;
+    }
+
+.epstein-01>img {
+    margin-left: 10px;
+}
+
+.socials {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .socials>ul>li {
+        list-style: none;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .mcafeedex>a>img {
+        width: 120px;
+    }
+
+    .twitter>a>img {
+        width: 100px;
+    }
+
+    .etherscan {
+        display: block;
+    }
+
+        .etherscan>a>img {
+            display: block;
+            position: relative;
+            width: 180px;
+            top: 100px;
+            left: -100%;
+        }
+
+@media screen and (min-width: 700px) {
+
+    .mobile-container {
+        display: none
+    }
+
+    .top-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        position: absolute;
+    }
+
+    .bottom-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .hanging>img {
+        width: 80%;
+    }
+
+.hillary {
+    display: inline;
+    position: relative;
+}
+
+    .hillary>img {
+        width: 50%;
+        margin-left: -20%;
+        position: fixed;
+        bottom: 0px;
+    }    
+    
+    .etherscan {
+        display: block;
+    }
+
+        .etherscan>a>img {
+            width: 250px;
+            top: 0px;
+            left: 0;
+        }
+
+}
